@@ -1,0 +1,40 @@
+# ---- Node / React ----
+node_modules/
+build/
+.env
+.env.*.local
+
+# ---- VS Code ----
+.vscode/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- .NET / Visual Studio ----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+
+# ---- .NET Secrets / Config ----
+appsettings.Development.json
+secrets.json
+
+# ---- Logs / Temp ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+temp/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.vs/
+
+# ---- Misc ----
+*.db
+*.pdb
